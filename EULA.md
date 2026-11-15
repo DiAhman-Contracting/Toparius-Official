@@ -1,7 +1,9 @@
+
 # End User License Agreement (EULA)
 
 **Plextura Suite**
-**Effective Date: March 8, 2026**
+**Effective Date: June 27, 2026**
+**Last Amended: July 11, 2026 (v1.1)**
 
 This End User License Agreement ("Agreement") is a legal agreement between you
 (either an individual or a single entity, "Licensee" or "you") and DiAhman
@@ -85,10 +87,15 @@ applicable license tier.
 
 ### 2.4 Trial Licenses
 
-Licensor may offer time-limited trial licenses for evaluation purposes. Trial
-licenses are limited to one per Module per Plextura Account and include
-reduced resource limits as defined at the time of trial provisioning. Trial
-licenses are not for production use.
+Licensor may offer a time-limited free trial of a Module's paid-tier features. A
+trial provides access to the features of the selected paid tier for the trial
+period and may be used in production. Trials are limited to **one per Module per
+Plextura Account**. No payment is required to begin a trial, and no charge occurs
+unless and until Licensee subscribes. At the end of the trial, if Licensee has not
+subscribed, the Module automatically downgrades to its free tier where one is
+offered (and continues to run subject to that tier's limits); otherwise the trial
+license ends. Trial duration, billing upon conversion, and refund eligibility are
+governed by the [Terms of Service](TERMS.md) §5.3.
 
 ---
 
@@ -204,10 +211,15 @@ entered into or collected by the Software) to Plextura Cloud.
 
 ### 6.3 Telemetry
 
-The Software may include an optional, anonymous telemetry feature. Telemetry
-is **disabled by default** and collects only aggregated, non-identifying usage
-statistics. Licensee may enable or disable telemetry at any time in the
-Software's settings. See the Privacy Policy for details.
+The Software may include an optional telemetry feature, **disabled by default**.
+When enabled, it collects usage statistics (such as device counts, feature usage,
+and module configuration) tagged with a per-instance identifier. Telemetry does
+**not** include Licensee's name, email, billing information, or Licensee Data;
+however, it is **pseudonymous rather than anonymous** — Licensor's administrators
+can associate the per-instance identifier with the Plextura Account through an
+internal mapping. Raw telemetry events are purged after 12 months. Licensee may
+enable or disable telemetry at any time in the Software's settings. The Privacy
+Policy governs; see it for details.
 
 ### 6.4 Licensee Data
 
@@ -283,6 +295,15 @@ CLAIM, OR (B) ONE HUNDRED DOLLARS ($100 USD).**
 **THE LIMITATIONS IN THIS SECTION SHALL APPLY EVEN IF ANY LIMITED REMEDY FAILS
 OF ITS ESSENTIAL PURPOSE.**
 
+### 9.4 Licensor Parties
+
+All warranties disclaimed and all limitations and exclusions of liability in this
+Agreement (including Sections 8 and 9) apply to, and may be invoked by, DiAhman
+Contracting, LLC and its members, managers, officers, employees, contractors, and
+agents (collectively, the "Licensor Parties"). To the maximum extent permitted by
+law, no Licensor Party shall have any personal liability arising out of or related
+to the Software or this Agreement.
+
 ---
 
 ## 10. Indemnification
@@ -322,7 +343,7 @@ Upon termination:
 
 a. All rights granted under this Agreement shall immediately cease;
 b. Licensee must uninstall the Software and destroy all copies;
-c. Sections 4, 5, 6, 8, 9, 10, and 12 shall survive termination;
+c. Sections 3, 4, 5, 6, 8, 9, 10, 11, and 12 shall survive termination;
 d. Termination shall not affect any accrued rights or obligations.
 
 ---
@@ -332,14 +353,14 @@ d. Termination shall not affect any accrued rights or obligations.
 ### 12.1 Governing Law
 
 This Agreement shall be governed by and construed in accordance with the laws
-of the State of Texas, United States, without regard to its conflict of laws
-provisions.
+of the Commonwealth of Virginia, United States, without regard to its conflict of
+laws provisions.
 
 ### 12.2 Dispute Resolution
 
 Any dispute arising under this Agreement shall be resolved exclusively in the
-state or federal courts located in the State of Texas, and both parties consent
-to the personal jurisdiction of such courts.
+state or federal courts located in the Commonwealth of Virginia, and both parties
+consent to the personal jurisdiction of such courts.
 
 ### 12.3 Export Compliance
 
@@ -372,17 +393,22 @@ contemporaneous agreements, understandings, and communications.
 
 ### 12.8 Amendments
 
-Licensor reserves the right to modify this Agreement at any time. Material
-changes will be communicated through the Software's release notes or
-documentation. Continued use of the Software after such changes constitutes
-acceptance of the modified terms.
+Licensor may modify this Agreement from time to time and will post the updated
+Agreement with a new effective date. For **material** changes, Licensor will
+provide notice (through the portal, the Software, release notes, or email) before
+the changes take effect and **may require Licensee to review and accept the updated
+Agreement before continuing to use the Software or the Cloud-connected Services.**
+For non-material changes, continued use of the Software after the new effective date
+constitutes acceptance. If Licensee does not agree to a change, Licensee must stop
+using the Software. As the Plextura Suite is in active development, this Agreement
+may evolve as the Software matures, and the current posted version always governs.
 
 ### 12.9 Notices
 
 All notices under this Agreement shall be in writing and sent to:
 
 **DiAhman Contracting, LLC**
-Email: contact@di-ahman.com
+Email: contact@plextura.com
 
 ---
 
